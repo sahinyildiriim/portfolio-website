@@ -16,13 +16,16 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
-  shopify,
+  loop,
+  mbk,
   carrent,
   jobit,
   tripguide,
   threejs,
+  dou,
+  na,
+  pms,
+  loopmobile,
 } from "../assets";
 
 export const navLinks = [
@@ -80,10 +83,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -116,91 +116,40 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Chairman",
+    company_name: "Muhendis Beyinler Club",
+    icon: mbk,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "(February 2025 – Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " Served as the Chairman for the university's most active student community. Led and managed a 6-person executive team, establishing the club's annual strategic roadmap and event calendar.",
+      "Successfully managed the planning, budgeting, and operational processes for 20-25 annual events, including technical seminars, workshops, and social activities.",
+      " Strengthened communication between members and sub-committees, optimizing task allocation and performance tracking processes. Increased the number of active members through initiatives aimed at enhancing member engagement.",
+      "Managed corporate communications with industry professionals and sponsor companies, securing both financial and in-kind resources for the club.",
     ],
   },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Loop “Yazılım ve Fikir Geliştirmeˮ Team",
+    icon: loop,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2023 -February 2026 ",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Actively contributed to the front-end development of web-based projects, participating in all stages of the SDLC (analysis, coding, and testing).eloping and maintaining web applications using React.js and other related technologies.",
+      "Applied foundational knowledge of Python and Java to web projects, gaining hands-on experience with React. Focused on building modular architectures and ensuring code reusability.",
+      " Led internal brainstorming sessions to drive idea generation. Delivered creative solutions to technical challenges, ensuring projects were completed within deadlines",
     ],
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+const testimonials = [{}, {}, {}];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "PMS&VMS",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      " Contributed to the development of Visitor (VMS) and Property Management Systems (PMS) by building modular and scalable User Interfaces using React. Focused on code maintainability through reusable components and implemented seamless API integrations for complex data flows. Utilized Git for version control to ensure smooth collaboration in team workflows.",
     tags: [
       {
         name: "react",
@@ -215,13 +164,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: pms,
+    source_code_link: "https://github.com/sahinyildiriim",
   },
   {
-    name: "Job IT",
+    name: "LOOP Mobile",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      " Developed a cross-platform mobile application using React Native and Expo. Engineered a robust Java backend implementing a layered services architecture to ensure code modularity and scalability. Integrated PostgreSQL for reliable data management and built a comprehensive Admin Panel for efficient system administration and content control.",
     tags: [
       {
         name: "react",
@@ -236,30 +185,37 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: loopmobile,
+    source_code_link: "https://github.com/sahinyildiriim",
+  },
+];
+const educations = [
+  {
+    title: "Dogus University ",
+    company_name: "B.Sc. in Computer Engineering",
+    icon: dou,
+    iconBg: "#E6DEDD",
+    date: "(2022 – Present)",
+    points: [
+      "Scholarship: Awarded 100% Full Scholarship based on outstanding academic performance",
+      "Relevant Coursework: Data Structures, Algorithms, Operating Systems, Database Management, Object Oriented Programming.",
+    ],
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    title: "Nesibe Aydın",
+    company_name: "High School",
+    icon: na,
+    iconBg: "#E6DEDD",
+    date: "(2017-2021)",
+    points: ["I have completed my high school education."],
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  educations,
+};

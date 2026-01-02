@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
@@ -44,12 +45,12 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adrian &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
+            Şahin &nbsp;
+            <span className='sm:block hidden'> | Jr. Developer</span>
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden sm:flex flex-row gap-10 items-center'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -61,6 +62,26 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li>
+            <a
+              href="https://www.linkedin.com/in/muhammetsahinyildirim"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-secondary hover:text-white transition-colors"
+            >
+              <FaLinkedin size={24} />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/sahinyildiriim"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-secondary hover:text-white transition-colors"
+            >
+              <FaGithub size={24} />
+            </a>
+          </li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
